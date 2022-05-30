@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarrus Rule 3x3</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .matrix {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+        }
+
+        .matrix input {
+            width: 80px;
+            height: 30px;
+            padding: 10px;
+            outline: none;
+            border: 2px solid black;
+            border-radius: 8px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="matrix">
+        <input type="number" value="0">
+        <input type="number" value="0">
+        <input type="number" value="0">
+
+        <input type="number" value="0">
+        <input type="number" value="0">
+        <input type="number" value="0">
+
+        <input type="number" value="0">
+        <input type="number" value="0">
+        <input type="number" value="0">
+    </div>
+
+    <br>
+    <p class="result">D = 0</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
