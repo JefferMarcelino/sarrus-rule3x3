@@ -15,6 +15,8 @@ numbers.forEach(number => {
 
         var sixthStep = (numbers[1].value * numbers[3].value * numbers[8].value) * -1
 
+        console.log(`(${firstStep}, ${secondStep}, ${thirdStep}, ${fourthStep}, ${fifthStep}, ${sixthStep})`)
+
         var sum1 = firstStep + secondStep + thirdStep
         console.log(sum1)
         var sum2 = fourthStep + fifthStep + sixthStep
